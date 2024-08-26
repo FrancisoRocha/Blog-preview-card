@@ -1,0 +1,150 @@
+/* FUNTES */
+@font-face {
+    font-family: 'Figtree-Var';
+    src: url(../assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Figtree-Var-Itc';
+    src: url(../assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Figtree-Bold';
+    src: url(../assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Figtree-Semi';
+    src: url(../assets/fonts/static/Figtree-SemiBold.ttf);
+}
+
+/* COLORES */
+:root {
+    --fondo: #F4D04E;
+    --fuente: #111111;
+    --texto: #6B6B6B;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--fondo);
+}
+
+.container__card {
+    display: flex;
+    width: 38rem;
+    height: 52rem;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 21.9rem;
+    margin-bottom: 21.9rem;
+    border-radius: 2rem;
+    border: 1px solid var(--fuente);
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.container__card:hover {
+    transition: all .3s;
+    box-shadow: 1rem 1rem 0 0 #111111;
+}
+
+.img__ilustra {
+    width: 33.6rem;
+    height: 20rem;
+    border-radius: 1rem;
+    margin-top: 2.4rem;
+    margin-left: 2.4rem;
+}
+
+.info__card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -334px;
+    flex-direction: column;
+}
+
+.btn-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fondo);
+    width: 8.9rem;
+    height: 2.9rem;
+    border-radius: .4rem;
+    border: none;
+    color: var(--fuente);
+    font-family: 'Figtree-Bold';
+    font-size: 1.4rem;
+    padding: .2rem;
+    cursor: pointer;
+    margin-top: 24rem;
+    margin-left: -26.5rem;
+    transition: all .3s;
+}
+
+.btn-one:hover {
+    transition: all .3s;
+    box-shadow: .4rem .4rem 0 0 #111111;
+}
+
+.texto__card {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Figtree-Var';
+    font-size: 1.4rem;
+    color: var(--fuente);
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-left: -21.5rem;
+}
+
+.title__card {
+    font-family: 'Figtree-Bold';
+    font-size: 24px;
+    color: var(--fuente);
+    margin-top: 2rem;
+    margin-left: -7.7rem;
+}
+
+.text__card__two {
+    font-family: 'Figtree-Var';
+    font-size: 1.6rem;
+    color: var(--texto);
+    font-weight: 400;
+    margin-top: 2rem;
+    line-height: 150%;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    margin-left: -22.6rem;
+    margin-top: 1.8rem;
+    gap: 1.5rem;
+}
+
+.img__card {
+    display: flex;
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.name {
+    font-size: 1.4rem;
+    color: var(--fuente);
+    font-family: 'Figtree-Bold';
+}
